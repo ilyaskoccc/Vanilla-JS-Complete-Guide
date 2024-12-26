@@ -4,3 +4,6 @@ document.querySelector("#app").innerHTML =
 
 //alert(); -> Basic Page Pop-up Box
 alert("This Is Pop-Up Box");
+
+// console.log(); -> Logs a Message To The Console
+console.log("Page Loaded!");
