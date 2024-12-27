@@ -1,5 +1,6 @@
 export function exampleSlice() {
-  // slice() -> kendisine verilecek olan parametreler ile tanımlanmış değişken içeriği aralığında bulunan değerleri kopyalayarak yeni bir içerik oluşturur ve oluşturduğu değeri geriye döner
+  /* slice() -> The slice() method copies the values within a specific range of a defined variable based on the provided parameters, 
+creates a new content, and returns the created value. */
 
   // Variable initialization
   let context = "Ilyas Koc JavaScript";

@@ -5,6 +5,7 @@ import { exampleLenght } from "./example/exampleLenght";
 import { exampleEval } from "./example/exampleEval";
 import { exampleTrim } from "./example/exampleTrim";
 import { exampleSlice } from "./example/exampleSlice";
+import { exampleSubString } from "./example/exampleSubString";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -17,3 +18,4 @@ exampleLenght();
 exampleEval();
 exampleTrim();
 exampleSlice();
+exampleSubString();
