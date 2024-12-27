@@ -15,6 +15,7 @@ import { exampleNumber } from "./example/exampleNumber";
 import { exampleValueOf } from "./example/exampleValueOf";
 import { exampleIndexOf } from "./example/exampleIndexOf";
 import { exampleLastIndexOf } from "./example/exampleLastIndexOf";
+import { exampleSearch } from "./example/exampleSearch";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -37,3 +38,4 @@ exampleNumber();
 exampleValueOf();
 exampleIndexOf();
 exampleLastIndexOf();
+exampleSearch();
