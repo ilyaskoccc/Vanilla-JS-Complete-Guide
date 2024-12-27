@@ -1,12 +1,12 @@
 export function exampleSubStr() {
-  /* The substring() method copies the values within a specific range of a defined variable based on the provided parameters, 
+  /* The substr() method copies the values within a specific range of a defined variable based on the provided parameters, 
   creates new content, and returns the created value.*/
 
   // Variable initialization
   let context = "Ilyas Koc JavaScript";
 
   // valid example
-  let totalContext = context.substr(5); // "Ilyas" deleted
+  let totalContext = context.substr(5); // "Ilyas" deleted, but this method deprecated.
 
   // Creating a div to append all the data type information
   const substrDiv = document.createElement("div");
@@ -16,7 +16,7 @@ export function exampleSubStr() {
         <br/>
         <h2>-Substr() → Attention this method is deprecated.</h2>
           <p>Context : ${context}</p>
-          <p>Output Slice : ${totalContext}</p>
+          <p>Output Substr : ${totalContext}</p>
         `;
 
   // Appending the div to the body

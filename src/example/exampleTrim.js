@@ -14,9 +14,9 @@ export function exampleTrim() {
   // Appending the results to the div
   trimDiv.innerHTML = `
       <br/>
-      <h2>- Trim()</h2>
+      <h2>-Trim()</h2>
         <p>Text : ${variableText1 + variableText2}</p>
-        <p>Trim Output : ${trimText}</p>
+        <p>Output Trim : ${trimText}</p>
       `;
 
   // Appending the div to the body

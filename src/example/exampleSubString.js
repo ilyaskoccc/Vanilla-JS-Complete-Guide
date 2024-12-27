@@ -16,7 +16,7 @@ creates new content, and returns the created value.*/
       <br/>
       <h2>-Substring()</h2>
         <p>Context : ${context}</p>
-        <p>Output Slice : ${totalContext}</p>
+        <p>Output Substring : ${totalContext}</p>
       `;
 
   // Appending the div to the body

@@ -7,6 +7,7 @@ import { exampleTrim } from "./example/exampleTrim";
 import { exampleSlice } from "./example/exampleSlice";
 import { exampleSubString } from "./example/exampleSubString";
 import { exampleSubStr } from "./example/exampleSubStr";
+import { exampleConcat } from "./example/exampleConcat";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -21,3 +22,4 @@ exampleTrim();
 exampleSlice();
 exampleSubString();
 exampleSubStr();
+exampleConcat();
