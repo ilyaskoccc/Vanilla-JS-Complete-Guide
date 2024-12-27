@@ -1,7 +1,7 @@
 export function exampleEval() {
   // eval() -> evaluates the given input as JavaScript code and returns the result.
 
-  // variable initialition
+  // Variable initialization
   let firstNumber = 10;
   let secondNumber = 40;
 
@@ -18,10 +18,6 @@ export function exampleEval() {
   evalDiv.innerHTML = `
   <br/>
   <h2>-Eval()</h2>
-    <h4>Variable Initialition</h4>
-    <p>let firstNumber = 10;</p>
-    <p>let secondNumber = 40;</p>
-    <br>
     <h4>Invalid Example</h4>
     <p>let totalNumber1 = "firstNumber + secondNumber";</p>
     <p>Output: ${totalNumber1}</p>

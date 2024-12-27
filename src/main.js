@@ -3,6 +3,7 @@ import { variable } from "./example/variable";
 import { exampleTypeOf } from "./example/exampleTypeOf";
 import { exampleLenght } from "./example/exampleLenght";
 import { exampleEval } from "./example/exampleEval";
+import { exampleTrim } from "./example/exampleTrim";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -13,3 +14,4 @@ variable();
 exampleTypeOf();
 exampleLenght();
 exampleEval();
+exampleTrim();
