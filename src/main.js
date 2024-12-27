@@ -6,6 +6,7 @@ import { exampleEval } from "./example/exampleEval";
 import { exampleTrim } from "./example/exampleTrim";
 import { exampleSlice } from "./example/exampleSlice";
 import { exampleSubString } from "./example/exampleSubString";
+import { exampleSubStr } from "./example/exampleSubStr";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -19,3 +20,4 @@ exampleEval();
 exampleTrim();
 exampleSlice();
 exampleSubString();
+exampleSubStr();
