@@ -18,6 +18,7 @@ import { exampleLastIndexOf } from "./example/exampleLastIndexOf";
 import { exampleSearch } from "./example/exampleSearch";
 import { exampleIncludes } from "./example/exampleIncludes";
 import { exampleStartsWith } from "./example/exampleStartsWith";
+import { exampleEndsWith } from "./example/exampleEndsWith";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -43,3 +44,4 @@ exampleLastIndexOf();
 exampleSearch();
 exampleIncludes();
 exampleStartsWith();
+exampleEndsWith();
