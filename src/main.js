@@ -1,5 +1,6 @@
 import { mixed } from "./example/mixed";
 import { variable } from "./example/variable";
+import { exampleTypeOf } from "./example/exampleTypeOf";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -7,3 +8,4 @@ document.querySelector("#app").innerHTML =
 
 mixed();
 variable();
+exampleTypeOf();

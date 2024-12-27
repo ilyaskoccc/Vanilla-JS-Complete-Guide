@@ -6,7 +6,8 @@ export function mixed() {
   console.log("Page Loaded!");
 
   // innerHTML -> Gets Or Sets The HTML Content Of An Element
-  document.getElementById("paragraph").innerHTML = "First Paragraph Text";
+  document.getElementById("paragraph").innerHTML =
+    "First Paragraph Text<br><br><br><br>";
 
   // debugger; -> Used for debugging.
   debugger;
