@@ -13,6 +13,7 @@ import { exampleToString } from "./example/exampleTostring";
 import { exampleString } from "./example/exampleString";
 import { exampleNumber } from "./example/exampleNumber";
 import { exampleValueOf } from "./example/exampleValueOf";
+import { exampleIndexOf } from "./example/exampleIndexOf";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -33,3 +34,4 @@ exampleToString();
 exampleString();
 exampleNumber();
 exampleValueOf();
+exampleIndexOf();
