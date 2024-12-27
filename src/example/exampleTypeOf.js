@@ -15,6 +15,8 @@ export function exampleTypeOf() {
 
   // Appending data type results to the div
   resultDiv.innerHTML = `
+  <br/><br/>
+  <h2>-Variable</h2>
     <p>name: ${typeof name}</p>
     <p>number: ${typeof number}</p>
     <p>isMarried: ${typeof isMarried}</p>
