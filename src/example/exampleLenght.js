@@ -1,5 +1,5 @@
 export function exampleLenght() {
-  // lenght -> değişken içerisindeki karakter sayısını geriye döner.
+  // length -> returns the number of characters in the variable.
   let name1 = "Ilyas Koc";
   let totalChar = name1.length;
 
@@ -8,7 +8,7 @@ export function exampleLenght() {
 
   // Appending data type results to the div
   resultDiv1.innerHTML = `
-  <br/><br/>
+  <br/>
   <h2>-Lenght</h2>
   <p>name1: ${name1}</p>
   <p>totalChar: ${totalChar}</p>
