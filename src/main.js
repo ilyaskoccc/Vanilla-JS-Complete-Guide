@@ -16,6 +16,7 @@ import { exampleValueOf } from "./example/exampleValueOf";
 import { exampleIndexOf } from "./example/exampleIndexOf";
 import { exampleLastIndexOf } from "./example/exampleLastIndexOf";
 import { exampleSearch } from "./example/exampleSearch";
+import { exampleIncludes } from "./example/exampleIncludes";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -39,3 +40,4 @@ exampleValueOf();
 exampleIndexOf();
 exampleLastIndexOf();
 exampleSearch();
+exampleIncludes();
