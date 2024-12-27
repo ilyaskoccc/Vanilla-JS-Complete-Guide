@@ -20,6 +20,7 @@ import { exampleIncludes } from "./example/exampleIncludes";
 import { exampleStartsWith } from "./example/exampleStartsWith";
 import { exampleEndsWith } from "./example/exampleEndsWith";
 import { exampleMatch } from "./example/exampleMatch";
+import { exampleReplace } from "./example/exampleReplace";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -47,3 +48,4 @@ exampleIncludes();
 exampleStartsWith();
 exampleEndsWith();
 exampleMatch();
+exampleReplace();
