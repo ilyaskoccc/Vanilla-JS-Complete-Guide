@@ -19,6 +19,7 @@ import { exampleSearch } from "./example/exampleSearch";
 import { exampleIncludes } from "./example/exampleIncludes";
 import { exampleStartsWith } from "./example/exampleStartsWith";
 import { exampleEndsWith } from "./example/exampleEndsWith";
+import { exampleMatch } from "./example/exampleMatch";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -45,3 +46,4 @@ exampleSearch();
 exampleIncludes();
 exampleStartsWith();
 exampleEndsWith();
+exampleMatch();

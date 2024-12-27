@@ -1,6 +1,5 @@
 export function exampleEndsWith() {
-  /* 
-The endsWith() method in JavaScript is used to check if a string ends with a specified suffix. 
+  /* The endsWith() method in JavaScript is used to check if a string ends with a specified suffix. 
 It returns true if the string ends with the given value, and false if it does not. */
 
   // Variable initialization
