@@ -10,8 +10,8 @@ export function exampleLenght() {
   resultDiv1.innerHTML = `
   <br/>
   <h2>-Lenght</h2>
-  <p>name1: ${name1}</p>
-  <p>totalChar: ${totalChar}</p>
+  <p>name1 : ${name1}</p>
+  <p>totalChar : ${totalChar}</p>
 `;
 
   // Appending the div to the body

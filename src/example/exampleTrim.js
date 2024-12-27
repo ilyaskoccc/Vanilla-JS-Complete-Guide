@@ -15,11 +15,8 @@ export function exampleTrim() {
   trimDiv.innerHTML = `
       <br/>
       <h2>- Trim()</h2>
-        <h4>Text</h4>
-        <p>${variableText1 + variableText2}</p>
-        <br>
-        <h4>Trim Output</h4>
-        <p>${trimText}</p>
+        <p>Text : ${variableText1 + variableText2}</p>
+        <p>Trim Output : ${trimText}</p>
       `;
 
   // Appending the div to the body

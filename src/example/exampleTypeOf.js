@@ -17,15 +17,15 @@ export function exampleTypeOf() {
   resultDiv.innerHTML = `
   <br/>
   <h2>-Typeof</h2>
-    <p>name: ${typeof name}</p>
-    <p>number: ${typeof number}</p>
-    <p>isMarried: ${typeof isMarried}</p>
-    <p>favCars: ${typeof favCars}</p>
-    <p>cars: ${typeof cars}</p>
-    <p>family: ${typeof family}</p>
-    <p>nullVariable: ${typeof nullVariable}</p>
-    <p>unknownVariable: ${typeof unknownVariable}</p>
-    <p>emptyString: ${typeof emptyString}</p>
+    <p>name : ${typeof name}</p>
+    <p>number : ${typeof number}</p>
+    <p>isMarried : ${typeof isMarried}</p>
+    <p>favCars : ${typeof favCars}</p>
+    <p>cars : ${typeof cars}</p>
+    <p>family : ${typeof family}</p>
+    <p>nullVariable : ${typeof nullVariable}</p>
+    <p>unknownVariable : ${typeof unknownVariable}</p>
+    <p>emptyString : ${typeof emptyString}</p>
   `;
 
   // Appending the div to the body

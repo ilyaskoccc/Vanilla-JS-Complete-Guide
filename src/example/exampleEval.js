@@ -18,13 +18,10 @@ export function exampleEval() {
   evalDiv.innerHTML = `
   <br/>
   <h2>-Eval()</h2>
-    <h4>Invalid Example</h4>
     <p>let totalNumber1 = "firstNumber + secondNumber";</p>
-    <p>Output: ${totalNumber1}</p>
-    <br>
-    <h4>Valid Example</h4>
+    <p>Output : ${totalNumber1}</p>
     <p>let totalNumber2 = eval("firstNumber + secondNumber");</p>
-    <p>Output: ${totalNumber2}</p>
+    <p>Output : ${totalNumber2}</p>
   `;
 
   // Appending the div to the body
