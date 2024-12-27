@@ -11,6 +11,7 @@ import { exampleConcat } from "./example/exampleConcat";
 import { exampleRepeat } from "./example/exampleRepeat";
 import { exampleToString } from "./example/exampleTostring";
 import { exampleString } from "./example/exampleString";
+import { exampleNumber } from "./example/exampleNumber";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -29,3 +30,4 @@ exampleConcat();
 exampleRepeat();
 exampleToString();
 exampleString();
+exampleNumber();
