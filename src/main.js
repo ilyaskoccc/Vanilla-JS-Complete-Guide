@@ -10,6 +10,7 @@ import { exampleSubStr } from "./example/exampleSubStr";
 import { exampleConcat } from "./example/exampleConcat";
 import { exampleRepeat } from "./example/exampleRepeat";
 import { exampleToString } from "./example/exampleTostring";
+import { exampleString } from "./example/exampleString";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -27,3 +28,4 @@ exampleSubStr();
 exampleConcat();
 exampleRepeat();
 exampleToString();
+exampleString();
