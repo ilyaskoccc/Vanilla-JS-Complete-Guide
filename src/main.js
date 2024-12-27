@@ -8,6 +8,7 @@ import { exampleSlice } from "./example/exampleSlice";
 import { exampleSubString } from "./example/exampleSubString";
 import { exampleSubStr } from "./example/exampleSubStr";
 import { exampleConcat } from "./example/exampleConcat";
+import { exampleRepeat } from "./example/exampleRepeat";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -23,3 +24,4 @@ exampleSlice();
 exampleSubString();
 exampleSubStr();
 exampleConcat();
+exampleRepeat();
