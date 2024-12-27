@@ -3,7 +3,7 @@ export function exampleTrim() {
 
   // Variable initialization
   let variableText1 = "JavaScript ";
-  let variableText2 = "language";
+  let variableText2 = "Language";
 
   // Trim example
   let trimText = variableText1.trim() + variableText2;

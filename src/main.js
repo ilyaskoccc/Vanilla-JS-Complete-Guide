@@ -4,6 +4,7 @@ import { exampleTypeOf } from "./example/exampleTypeOf";
 import { exampleLenght } from "./example/exampleLenght";
 import { exampleEval } from "./example/exampleEval";
 import { exampleTrim } from "./example/exampleTrim";
+import { exampleSlice } from "./example/exampleSlice";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -15,3 +16,4 @@ exampleTypeOf();
 exampleLenght();
 exampleEval();
 exampleTrim();
+exampleSlice();
