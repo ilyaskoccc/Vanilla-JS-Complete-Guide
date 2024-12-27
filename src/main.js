@@ -21,6 +21,7 @@ import { exampleStartsWith } from "./example/exampleStartsWith";
 import { exampleEndsWith } from "./example/exampleEndsWith";
 import { exampleMatch } from "./example/exampleMatch";
 import { exampleReplace } from "./example/exampleReplace";
+import { exampleSplit } from "./example/exampleSplit";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -49,3 +50,4 @@ exampleStartsWith();
 exampleEndsWith();
 exampleMatch();
 exampleReplace();
+exampleSplit();
