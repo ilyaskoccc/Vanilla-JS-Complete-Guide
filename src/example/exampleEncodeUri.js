@@ -17,7 +17,7 @@ It converts characters that have special meanings in a URI into their percent-en
                               <br/>
                               <h2>-EncodeURI()</h2>
                               <p>Context → ${context1}</p>
-                              <p>Output encodeUri → ${totalContext1}</p>
+                              <p>Output encodeURI → ${totalContext1}</p>
                               `;
 
   // Appending the div to the body
