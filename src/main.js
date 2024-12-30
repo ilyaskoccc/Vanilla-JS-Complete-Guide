@@ -30,6 +30,7 @@ import { exampleEncodeUri } from "./example/exampleEncodeUri";
 import { exampleDecodeUri } from "./example/exampleDecodeUri";
 import { exampleEncodeUriComponent } from "./example/exampleEncodeUriComponent";
 import { exampleEscape } from "./example/exampleEscape";
+import { exampleUnEscape } from "./example/exampleUnEscape";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -67,3 +68,4 @@ exampleEncodeUri();
 exampleDecodeUri();
 exampleEncodeUriComponent();
 exampleEscape();
+exampleUnEscape();
