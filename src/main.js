@@ -53,6 +53,7 @@ import { exampleTernary } from "./condition/exampleTernary";
 import { exampleTryCatchFinallyThrow } from "./condition/exampleTryCatchFinallyThrow";
 import { exampleWhile } from "./loops/exampleWhile";
 import { exampleDoWhile } from "./loops/exampleDoWhile";
+import { exampleFor } from "./loops/exampleFor";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -118,3 +119,4 @@ exampleTryCatchFinallyThrow();
 // loops
 exampleWhile();
 exampleDoWhile();
+exampleFor();
