@@ -33,6 +33,7 @@ import { exampleEscape } from "./example/exampleEscape";
 import { exampleUnEscape } from "./example/exampleUnEscape";
 import { exampleToUpperCase } from "./example/exampleToUpperCase";
 import { exampleToLowerCase } from "./example/exampleToLowerCase";
+import { exampleToLocaleUpperCase } from "./example/exampleToLocaleUpperCase";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -73,3 +74,4 @@ exampleEscape();
 exampleUnEscape();
 exampleToUpperCase();
 exampleToLowerCase();
+exampleToLocaleUpperCase();
