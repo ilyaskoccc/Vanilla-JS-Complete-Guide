@@ -39,6 +39,7 @@ import { exampleSub } from "./example/exampleSub";
 import { exampleSup } from "./example/exampleSup";
 import { exampleBig } from "./example/exampleBig";
 import { exampleSmall } from "./example/exampleSmall";
+import { exampleBold } from "./example/exampleBold";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -85,3 +86,4 @@ exampleSub();
 exampleSup();
 exampleBig();
 exampleSmall();
+exampleBold();
