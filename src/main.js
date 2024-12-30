@@ -43,6 +43,7 @@ import { exampleBold } from "./example/exampleBold";
 import { exampleItalics } from "./example/exampleItalics";
 import { exampleStrike } from "./example/exampleStrike";
 import { exampleFixed } from "./example/exampleFixed";
+import { exampleFontColor } from "./example/exampleFontColor";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -93,3 +94,4 @@ exampleBold();
 exampleItalics();
 exampleStrike();
 exampleFixed();
+exampleFontColor();
