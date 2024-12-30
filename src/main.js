@@ -49,6 +49,7 @@ import { exampleAnchor } from "./example/exampleAnchor";
 import { exampleLink } from "./example/exampleLink";
 import { exampleIfElse } from "./condition/exampleIfElse";
 import { exampleSwitchCase } from "./condition/exampleSwitchCase";
+import { exampleTernary } from "./condition/exampleTernary";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -108,3 +109,4 @@ exampleLink();
 // condition
 exampleIfElse();
 exampleSwitchCase();
+exampleTernary();
