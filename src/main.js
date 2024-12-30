@@ -50,6 +50,7 @@ import { exampleLink } from "./example/exampleLink";
 import { exampleIfElse } from "./condition/exampleIfElse";
 import { exampleSwitchCase } from "./condition/exampleSwitchCase";
 import { exampleTernary } from "./condition/exampleTernary";
+import { exampleTryCatchFinallyThrow } from "./condition/exampleTryCatchFinallyThrow";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -110,3 +111,4 @@ exampleLink();
 exampleIfElse();
 exampleSwitchCase();
 exampleTernary();
+exampleTryCatchFinallyThrow();
