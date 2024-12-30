@@ -26,6 +26,7 @@ import { exampleLocaleCompare } from "./example/exampleLocaleCompare";
 import { exampleCharAt } from "./example/exampleCharAt";
 import { exampleCharCodeAt } from "./example/exampleCharCodeAt";
 import { exampleFromCharCode } from "./example/exampleFromCharCode";
+import { exampleEncodeUri } from "./example/exampleEncodeUri";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -59,3 +60,4 @@ exampleLocaleCompare();
 exampleCharAt();
 exampleCharCodeAt();
 exampleFromCharCode();
+exampleEncodeUri();
