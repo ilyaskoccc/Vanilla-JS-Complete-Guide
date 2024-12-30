@@ -13,6 +13,13 @@ Functions allow you to group code into smaller, manageable pieces that can be ex
     return `Hello, ${name}!`;
   }
 
+  function add(a, b) {
+    return a + b;
+  }
+
+  // Calling the function
+  const sum = add(5, 3);
+
   // Creating a div to append all the data type information
   const printDiv = document.createElement("div");
 
@@ -20,7 +27,8 @@ Functions allow you to group code into smaller, manageable pieces that can be ex
   printDiv.innerHTML = `
                             <br/>
                             <h2>-Function</h2>
-                            <p>Message → ${greet("JavaScript")}</p> 
+                            <p>Message → ${greet("JavaScript")}</p>
+                            <p>Sum → ${sum}</p>  
                             `;
 
   // Appending the div to the body
