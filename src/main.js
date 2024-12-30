@@ -32,6 +32,7 @@ import { exampleEncodeUriComponent } from "./example/exampleEncodeUriComponent";
 import { exampleEscape } from "./example/exampleEscape";
 import { exampleUnEscape } from "./example/exampleUnEscape";
 import { exampleToUpperCase } from "./example/exampleToUpperCase";
+import { exampleToLowerCase } from "./example/exampleToLowerCase";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -71,3 +72,4 @@ exampleEncodeUriComponent();
 exampleEscape();
 exampleUnEscape();
 exampleToUpperCase();
+exampleToLowerCase();
