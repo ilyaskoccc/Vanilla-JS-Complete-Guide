@@ -44,6 +44,7 @@ import { exampleItalics } from "./example/exampleItalics";
 import { exampleStrike } from "./example/exampleStrike";
 import { exampleFixed } from "./example/exampleFixed";
 import { exampleFontColor } from "./example/exampleFontColor";
+import { exampleFontSize } from "./example/exampleFontSize";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -95,3 +96,4 @@ exampleItalics();
 exampleStrike();
 exampleFixed();
 exampleFontColor();
+exampleFontSize();
