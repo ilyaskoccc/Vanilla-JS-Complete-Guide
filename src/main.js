@@ -52,6 +52,7 @@ import { exampleSwitchCase } from "./condition/exampleSwitchCase";
 import { exampleTernary } from "./condition/exampleTernary";
 import { exampleTryCatchFinallyThrow } from "./condition/exampleTryCatchFinallyThrow";
 import { exampleWhile } from "./loops/exampleWhile";
+import { exampleDoWhile } from "./loops/exampleDoWhile";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -116,3 +117,4 @@ exampleTryCatchFinallyThrow();
 
 // loops
 exampleWhile();
+exampleDoWhile();
