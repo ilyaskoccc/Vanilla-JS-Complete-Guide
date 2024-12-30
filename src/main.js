@@ -29,6 +29,7 @@ import { exampleFromCharCode } from "./example/exampleFromCharCode";
 import { exampleEncodeUri } from "./example/exampleEncodeUri";
 import { exampleDecodeUri } from "./example/exampleDecodeUri";
 import { exampleEncodeUriComponent } from "./example/exampleEncodeUriComponent";
+import { exampleEscape } from "./example/exampleEscape";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -65,3 +66,4 @@ exampleFromCharCode();
 exampleEncodeUri();
 exampleDecodeUri();
 exampleEncodeUriComponent();
+exampleEscape();
