@@ -54,6 +54,7 @@ import { exampleTryCatchFinallyThrow } from "./condition/exampleTryCatchFinallyT
 import { exampleWhile } from "./loops/exampleWhile";
 import { exampleDoWhile } from "./loops/exampleDoWhile";
 import { exampleFor } from "./loops/exampleFor";
+import { exampleForInObject } from "./loops/exampleForInObject";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -120,3 +121,4 @@ exampleTryCatchFinallyThrow();
 exampleWhile();
 exampleDoWhile();
 exampleFor();
+exampleForInObject();
