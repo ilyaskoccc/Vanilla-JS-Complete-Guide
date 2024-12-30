@@ -46,6 +46,7 @@ import { exampleFixed } from "./example/exampleFixed";
 import { exampleFontColor } from "./example/exampleFontColor";
 import { exampleFontSize } from "./example/exampleFontSize";
 import { exampleAnchor } from "./example/exampleAnchor";
+import { exampleLink } from "./example/exampleLink";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -99,3 +100,4 @@ exampleFixed();
 exampleFontColor();
 exampleFontSize();
 exampleAnchor();
+exampleLink();
