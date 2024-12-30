@@ -47,6 +47,7 @@ import { exampleFontColor } from "./example/exampleFontColor";
 import { exampleFontSize } from "./example/exampleFontSize";
 import { exampleAnchor } from "./example/exampleAnchor";
 import { exampleLink } from "./example/exampleLink";
+import { exampleIfElse } from "./condition/exampleIfElse";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -101,3 +102,6 @@ exampleFontColor();
 exampleFontSize();
 exampleAnchor();
 exampleLink();
+
+// condition
+exampleIfElse();
