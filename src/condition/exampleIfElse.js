@@ -35,7 +35,7 @@ export function exampleIfElse() {
   // Appending data type results to the div
   printDiv.innerHTML = `
                       <br/>
-                      <h2>-IF-Else</h2>
+                      <h2>-If Else</h2>
                       <p>Score → ${score}</p>
                       <p>Result → ${result}</p>
                       `;
