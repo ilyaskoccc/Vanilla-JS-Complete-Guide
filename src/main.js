@@ -40,6 +40,7 @@ import { exampleSup } from "./example/exampleSup";
 import { exampleBig } from "./example/exampleBig";
 import { exampleSmall } from "./example/exampleSmall";
 import { exampleBold } from "./example/exampleBold";
+import { exampleItalics } from "./example/exampleItalics";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -87,3 +88,4 @@ exampleSup();
 exampleBig();
 exampleSmall();
 exampleBold();
+exampleItalics();
