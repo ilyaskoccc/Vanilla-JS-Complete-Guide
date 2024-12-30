@@ -28,6 +28,7 @@ import { exampleCharCodeAt } from "./example/exampleCharCodeAt";
 import { exampleFromCharCode } from "./example/exampleFromCharCode";
 import { exampleEncodeUri } from "./example/exampleEncodeUri";
 import { exampleDecodeUri } from "./example/exampleDecodeUri";
+import { exampleEncodeUriComponent } from "./example/exampleEncodeUriComponent";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -63,3 +64,4 @@ exampleCharCodeAt();
 exampleFromCharCode();
 exampleEncodeUri();
 exampleDecodeUri();
+exampleEncodeUriComponent();
