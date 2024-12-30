@@ -50,10 +50,11 @@ import { exampleLink } from "./example/exampleLink";
 import { exampleIfElse } from "./condition/exampleIfElse";
 import { exampleSwitchCase } from "./condition/exampleSwitchCase";
 
-//Welcome Text
+// Welcome Text
 document.querySelector("#app").innerHTML =
   '<h1 style="text-align: center;">Hello JavaScript</h1>';
 
+// example
 mixed();
 variable();
 exampleTypeOf();
