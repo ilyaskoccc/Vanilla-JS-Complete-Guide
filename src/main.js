@@ -55,6 +55,7 @@ import { exampleWhile } from "./loops/exampleWhile";
 import { exampleDoWhile } from "./loops/exampleDoWhile";
 import { exampleFor } from "./loops/exampleFor";
 import { exampleForInObject } from "./loops/exampleForInObject";
+import { exampleFunction } from "./function/exampleFunction";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -122,3 +123,6 @@ exampleWhile();
 exampleDoWhile();
 exampleFor();
 exampleForInObject();
+
+// function
+exampleFunction();
