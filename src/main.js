@@ -51,6 +51,7 @@ import { exampleIfElse } from "./condition/exampleIfElse";
 import { exampleSwitchCase } from "./condition/exampleSwitchCase";
 import { exampleTernary } from "./condition/exampleTernary";
 import { exampleTryCatchFinallyThrow } from "./condition/exampleTryCatchFinallyThrow";
+import { exampleWhile } from "./loops/exampleWhile";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -112,3 +113,6 @@ exampleIfElse();
 exampleSwitchCase();
 exampleTernary();
 exampleTryCatchFinallyThrow();
+
+// loops
+exampleWhile();
