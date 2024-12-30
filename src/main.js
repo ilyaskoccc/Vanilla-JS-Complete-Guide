@@ -41,6 +41,7 @@ import { exampleBig } from "./example/exampleBig";
 import { exampleSmall } from "./example/exampleSmall";
 import { exampleBold } from "./example/exampleBold";
 import { exampleItalics } from "./example/exampleItalics";
+import { exampleStrike } from "./example/exampleStrike";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -89,3 +90,4 @@ exampleBig();
 exampleSmall();
 exampleBold();
 exampleItalics();
+exampleStrike();
