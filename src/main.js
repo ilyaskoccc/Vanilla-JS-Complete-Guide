@@ -24,6 +24,7 @@ import { exampleReplace } from "./example/exampleReplace";
 import { exampleSplit } from "./example/exampleSplit";
 import { exampleLocaleCompare } from "./example/exampleLocaleCompare";
 import { exampleCharAt } from "./example/exampleCharAt";
+import { exampleCharCodeAt } from "./example/exampleCharCodeAt";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -55,3 +56,4 @@ exampleReplace();
 exampleSplit();
 exampleLocaleCompare();
 exampleCharAt();
+exampleCharCodeAt();
