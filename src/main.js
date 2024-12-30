@@ -38,6 +38,7 @@ import { exampleToLocaleLowerCase } from "./example/exampleToLocaleLowerCase";
 import { exampleSub } from "./example/exampleSub";
 import { exampleSup } from "./example/exampleSup";
 import { exampleBig } from "./example/exampleBig";
+import { exampleSmall } from "./example/exampleSmall";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -83,3 +84,4 @@ exampleToLocaleLowerCase();
 exampleSub();
 exampleSup();
 exampleBig();
+exampleSmall();
