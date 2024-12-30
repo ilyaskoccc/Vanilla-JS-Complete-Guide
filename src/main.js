@@ -48,6 +48,7 @@ import { exampleFontSize } from "./example/exampleFontSize";
 import { exampleAnchor } from "./example/exampleAnchor";
 import { exampleLink } from "./example/exampleLink";
 import { exampleIfElse } from "./condition/exampleIfElse";
+import { exampleSwitchCase } from "./condition/exampleSwitchCase";
 
 //Welcome Text
 document.querySelector("#app").innerHTML =
@@ -105,3 +106,4 @@ exampleLink();
 
 // condition
 exampleIfElse();
+exampleSwitchCase();
