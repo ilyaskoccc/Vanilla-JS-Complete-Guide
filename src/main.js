@@ -108,6 +108,7 @@ import { exampleToFixed } from "./math/exampleToFixed";
 import { exampleToPrecision } from "./math/exampleToPrecision";
 import { exampleToExponential } from "./math/exampleToExponential";
 import { exampleParseInt } from "./math/exampleParseInt";
+import { exampleParseFloat } from "./math/exampleParseFloat";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -234,3 +235,4 @@ exampleToFixed();
 exampleToPrecision();
 exampleToExponential();
 exampleParseInt();
+exampleParseFloat();
