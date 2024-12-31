@@ -13,11 +13,11 @@ export function exampleArrayForEach() {
 
   // Appending data type results to the div and Calling the function
   printDiv.innerHTML = `
-                              <br/>
-                              <h2>-ForEach</h2>
-                              <p>Array → ${colors} </p>
-                              <p>ForEach → </br>${text} </p>    
-                              `;
+                      <br/>
+                      <h2>-ForEach</h2>
+                      <p>Array → ${colors} </p>
+                      <p>ForEach → </br>${text} </p>    
+                      `;
 
   // Appending the div to the body
   document.body.appendChild(printDiv);
