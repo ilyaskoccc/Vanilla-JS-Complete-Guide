@@ -101,6 +101,7 @@ import { exampleMathPI } from "./math/exampleMathPI";
 import { exampleMathSqrt1_2 } from "./math/exampleMathSqrt1_2";
 import { exampleMathSqrt2 } from "./math/exampleMathSqrt2";
 import { exampleNumberIsNaN } from "./math/exampleNumberIsNaN";
+import { exampleNumberIsFinite } from "./math/exampleNumberIsFinite";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -220,3 +221,4 @@ exampleMathPI();
 exampleMathSqrt1_2();
 exampleMathSqrt2();
 exampleNumberIsNaN();
+exampleNumberIsFinite();

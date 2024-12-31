@@ -12,7 +12,7 @@ export function exampleNumberIsNaN() {
   // Appending data type results to the div
   printDiv.innerHTML = `
                           <br/>
-                          <h2>-Number.isNaN Examples</h2>
+                          <h2>-Number.isNaN</h2>
                           <p>Is NaN (Valid Number: 42)? → ${Number.isNaN(
                             validNumber
                           )}</p>
