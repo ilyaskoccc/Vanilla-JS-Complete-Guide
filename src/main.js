@@ -84,6 +84,7 @@ import { exampleArraySort } from "./array/exampleArraySort";
 import { exampleArrayForEach } from "./array/exampleArrayForEach";
 import { exampleArraySome } from "./array/exampleArraySome";
 import { exampleArrayEvery } from "./array/exampleArrayEvery";
+import { exampleArrayFilter } from "./array/exampleArrayFilter";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -184,3 +185,4 @@ exampleArraySort();
 exampleArrayForEach();
 exampleArraySome();
 exampleArrayEvery();
+exampleArrayFilter();
