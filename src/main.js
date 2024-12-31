@@ -72,6 +72,7 @@ import { exampleArraySlice } from "./array/exampleArraySlice";
 import { exampleArrayCopyWithin } from "./array/exampleArrayCopyWithin";
 import { exampleArrayFill } from "./array/exampleArrayFill";
 import { exampleArrayConcat } from "./array/exampleArrayConcat";
+import { exampleArrayValueOf } from "./array/exampleArrayValueOf";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -160,3 +161,4 @@ exampleArraySlice();
 exampleArrayCopyWithin();
 exampleArrayFill();
 exampleArrayConcat();
+exampleArrayValueOf();
