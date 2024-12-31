@@ -83,6 +83,7 @@ import { exampleArrayReverse } from "./array/exampleArrayReverse";
 import { exampleArraySort } from "./array/exampleArraySort";
 import { exampleArrayForEach } from "./array/exampleArrayForEach";
 import { exampleArraySome } from "./array/exampleArraySome";
+import { exampleArrayEvery } from "./array/exampleArrayEvery";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -182,3 +183,4 @@ exampleArrayReverse();
 exampleArraySort();
 exampleArrayForEach();
 exampleArraySome();
+exampleArrayEvery();
