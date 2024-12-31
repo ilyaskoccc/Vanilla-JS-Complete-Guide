@@ -82,6 +82,7 @@ import { exampleArrayReduceRight } from "./array/exampleArrayReduceRight";
 import { exampleArrayReverse } from "./array/exampleArrayReverse";
 import { exampleArraySort } from "./array/exampleArraySort";
 import { exampleArrayForEach } from "./array/exampleArrayForEach";
+import { exampleArraySome } from "./array/exampleArraySome";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -180,3 +181,4 @@ exampleArrayReduceRight();
 exampleArrayReverse();
 exampleArraySort();
 exampleArrayForEach();
+exampleArraySome();
