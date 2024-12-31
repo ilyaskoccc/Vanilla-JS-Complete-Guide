@@ -9,13 +9,13 @@ export function exampleArrayMap() {
 
   // Appending data type results to the div
   printDiv.innerHTML = `
-                              <br/>
-                              <h2>-Map</h2>
-                              <p>Array → ${num.join(", ")} </p>
-                              <p>All Divisible By Two Map → ${allDivisibleBy.join(
-                                ", "
-                              )} </p>    
-                              `;
+                      <br/>
+                      <h2>-Map</h2>
+                      <p>Array → ${num.join(", ")} </p>
+                      <p>All Divisible By Two Map → ${allDivisibleBy.join(
+                        ", "
+                      )} </p>    
+                      `;
 
   // Appending the div to the body
   document.body.appendChild(printDiv);
