@@ -105,6 +105,7 @@ import { exampleNumberIsFinite } from "./math/exampleNumberIsFinite";
 import { exampleNumberIsInteger } from "./math/exampleNumberIsInteger";
 import { exampleNumberIsSafeInteger } from "./math/exampleNumberIsSafeInteger";
 import { exampleToFixed } from "./math/exampleToFixed";
+import { exampleToPrecision } from "./math/exampleToPrecision";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -228,3 +229,4 @@ exampleNumberIsFinite();
 exampleNumberIsInteger();
 exampleNumberIsSafeInteger();
 exampleToFixed();
+exampleToPrecision();
