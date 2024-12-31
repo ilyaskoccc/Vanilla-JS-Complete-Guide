@@ -63,6 +63,7 @@ import { exampleArrayForIn } from "./array/exampleArrayForIn";
 import { exampleChallenge } from "./array/exampleChallenge";
 import { exampleArrayLenght } from "./array/exampleArrayLength";
 import { exampleArrayDelete } from "./array/exampleArrayDelete";
+import { exampleArrayPop } from "./array/exampleArrayPop";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -142,3 +143,4 @@ exampleArrayForIn();
 exampleChallenge();
 exampleArrayLenght();
 exampleArrayDelete();
+exampleArrayPop();
