@@ -90,6 +90,7 @@ import { exampleArrayAvarage } from "./array/exampleArrayAvarage";
 import { exampleArrayShuffle } from "./array/exampleArrayShuffle";
 import { exampleMaxValue } from "./math/exampleMaxValue";
 import { exampleMinValue } from "./math/exampleMinValue";
+import { examplePositiveInfinity } from "./math/examplePostiveInfinity";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -198,3 +199,4 @@ exampleArrayShuffle();
 // Math
 exampleMaxValue();
 exampleMinValue();
+examplePositiveInfinity();
