@@ -71,6 +71,7 @@ import { exampleArraySplice } from "./array/exampleArraySplice";
 import { exampleArraySlice } from "./array/exampleArraySlice";
 import { exampleArrayCopyWithin } from "./array/exampleArrayCopyWithin";
 import { exampleArrayFill } from "./array/exampleArrayFill";
+import { exampleArrayConcat } from "./array/exampleArrayConcat";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -158,3 +159,4 @@ exampleArraySplice();
 exampleArraySlice();
 exampleArrayCopyWithin();
 exampleArrayFill();
+exampleArrayConcat();
