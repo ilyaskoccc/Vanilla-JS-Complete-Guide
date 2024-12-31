@@ -67,6 +67,7 @@ import { exampleArrayPop } from "./array/exampleArrayPop";
 import { exampleArrayShift } from "./array/exampleArrayShift";
 import { exampleArrayPush } from "./array/exampleArrayPush";
 import { exampleArrayUnshift } from "./array/exampleArrayUnshift";
+import { exampleArraySplice } from "./array/exampleArraySplice";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -150,3 +151,4 @@ exampleArrayPop();
 exampleArrayShift();
 exampleArrayPush();
 exampleArrayUnshift();
+exampleArraySplice();
