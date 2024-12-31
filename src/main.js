@@ -57,6 +57,7 @@ import { exampleFor } from "./loops/exampleFor";
 import { exampleForInObject } from "./loops/exampleForInObject";
 import { exampleFunction } from "./function/exampleFunction";
 import { exampleConditionFunction } from "./function/exampleConditionFunction";
+import { exampleArray } from "./array/exampleArray";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -128,3 +129,6 @@ exampleForInObject();
 // function
 exampleFunction();
 exampleConditionFunction();
+
+// array
+exampleArray();
