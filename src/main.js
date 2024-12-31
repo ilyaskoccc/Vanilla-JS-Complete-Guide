@@ -97,6 +97,7 @@ import { exampleMathLN2 } from "./math/exampleMathLN2";
 import { exampleMathLN10 } from "./math/exampleMathLN10";
 import { exampleMathLog2E } from "./math/exampleMathLog2E";
 import { exampleMathLog10E } from "./math/exampleMathLog10E";
+import { exampleMathPI } from "./math/exampleMathPI";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -212,3 +213,4 @@ exampleMathLN2();
 exampleMathLN10();
 exampleMathLog2E();
 exampleMathLog10E();
+exampleMathPI();
