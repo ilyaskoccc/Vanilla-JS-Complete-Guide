@@ -8,10 +8,10 @@ export function exampleArrayFill() {
 
   // Appending data type results to the div and Calling the function
   printDiv.innerHTML = `
-                              <br/>
-                              <h2>-Fill</h2>
-                              <p>Fill → ${arrayFill.join(", ")} </p>  
-                              `;
+                      <br/>
+                      <h2>-Fill</h2>
+                      <p>Fill → ${arrayFill.join(", ")} </p>  
+                      `;
 
   // Appending the div to the body
   document.body.appendChild(printDiv);
