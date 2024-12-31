@@ -25,7 +25,7 @@ export function exampleParseInt() {
   // Appending results to the div
   printDiv.innerHTML = `
                           <br/>
-                          <h2>-parseInt Examples</h2>
+                          <h2>-parseInt</h2>
                           ${results.join("")}
                           `;
 
