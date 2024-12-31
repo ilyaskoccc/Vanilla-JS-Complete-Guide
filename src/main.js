@@ -103,6 +103,7 @@ import { exampleMathSqrt2 } from "./math/exampleMathSqrt2";
 import { exampleNumberIsNaN } from "./math/exampleNumberIsNaN";
 import { exampleNumberIsFinite } from "./math/exampleNumberIsFinite";
 import { exampleNumberIsInteger } from "./math/exampleNumberIsInteger";
+import { exampleNumberIsSafeInteger } from "./math/exampleNumberIsSafeInteger";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -224,3 +225,4 @@ exampleMathSqrt2();
 exampleNumberIsNaN();
 exampleNumberIsFinite();
 exampleNumberIsInteger();
+exampleNumberIsSafeInteger();
