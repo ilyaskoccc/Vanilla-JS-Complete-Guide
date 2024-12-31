@@ -99,6 +99,7 @@ import { exampleMathLog2E } from "./math/exampleMathLog2E";
 import { exampleMathLog10E } from "./math/exampleMathLog10E";
 import { exampleMathPI } from "./math/exampleMathPI";
 import { exampleMathSqrt1_2 } from "./math/exampleMathSqrt1_2";
+import { exampleMathSqrt2 } from "./math/exampleMathSqrt2";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -216,3 +217,4 @@ exampleMathLog2E();
 exampleMathLog10E();
 exampleMathPI();
 exampleMathSqrt1_2();
+exampleMathSqrt2();
