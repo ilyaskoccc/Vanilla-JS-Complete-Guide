@@ -106,6 +106,7 @@ import { exampleNumberIsInteger } from "./math/exampleNumberIsInteger";
 import { exampleNumberIsSafeInteger } from "./math/exampleNumberIsSafeInteger";
 import { exampleToFixed } from "./math/exampleToFixed";
 import { exampleToPrecision } from "./math/exampleToPrecision";
+import { exampleToExponential } from "./math/exampleToExponential";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -230,3 +231,4 @@ exampleNumberIsInteger();
 exampleNumberIsSafeInteger();
 exampleToFixed();
 exampleToPrecision();
+exampleToExponential();
