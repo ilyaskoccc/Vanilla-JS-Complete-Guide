@@ -104,6 +104,7 @@ import { exampleNumberIsNaN } from "./math/exampleNumberIsNaN";
 import { exampleNumberIsFinite } from "./math/exampleNumberIsFinite";
 import { exampleNumberIsInteger } from "./math/exampleNumberIsInteger";
 import { exampleNumberIsSafeInteger } from "./math/exampleNumberIsSafeInteger";
+import { exampleToFixed } from "./math/exampleToFixed";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -226,3 +227,4 @@ exampleNumberIsNaN();
 exampleNumberIsFinite();
 exampleNumberIsInteger();
 exampleNumberIsSafeInteger();
+exampleToFixed();
