@@ -88,6 +88,7 @@ import { exampleArrayFilter } from "./array/exampleArrayFilter";
 import { exampleArrayMap } from "./array/exampleArrayMap";
 import { exampleArrayAvarage } from "./array/exampleArrayAvarage";
 import { exampleArrayShuffle } from "./array/exampleArrayShuffle";
+import { exampleMaxValue } from "./math/exampleMaxValue";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -192,3 +193,6 @@ exampleArrayFilter();
 exampleArrayMap();
 exampleArrayAvarage();
 exampleArrayShuffle();
+
+// Math
+exampleMaxValue();
