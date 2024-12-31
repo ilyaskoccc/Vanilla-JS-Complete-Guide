@@ -80,6 +80,7 @@ import { exampleArrayFindIndex } from "./array/exampleArrayFindIndex";
 import { exampleArrayReduce } from "./array/exampleArrayReduce";
 import { exampleArrayReduceRight } from "./array/exampleArrayReduceRight";
 import { exampleArrayReverse } from "./array/exampleArrayReverse";
+import { exampleArraySort } from "./array/exampleArraySort";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -176,3 +177,4 @@ exampleArrayFindIndex();
 exampleArrayReduce();
 exampleArrayReduceRight();
 exampleArrayReverse();
+exampleArraySort();
