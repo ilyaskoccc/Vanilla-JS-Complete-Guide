@@ -76,6 +76,7 @@ import { exampleArrayValueOf } from "./array/exampleArrayValueOf";
 import { exampleArrayIndexOf } from "./array/exampleArrayIndexOf";
 import { exampleArrayLastIndexOf } from "./array/exampleArrayLastIndexOf";
 import { exampleArrayFind } from "./array/exampleArrayFind";
+import { exampleArrayFindIndex } from "./array/exampleArrayFindIndex";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -168,3 +169,4 @@ exampleArrayValueOf();
 exampleArrayIndexOf();
 exampleArrayLastIndexOf();
 exampleArrayFind();
+exampleArrayFindIndex();
