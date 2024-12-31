@@ -7,10 +7,10 @@ export function exampleMathSqrt1_2() {
 
   // Appending data type results to the div
   printDiv.innerHTML = `
-                            <br/>
-                            <h2>-Math.SQRT1_2</h2>
-                            <p>SQRT1_2 → ${sqrt1_2} </p> 
-                            `;
+                    <br/>
+                    <h2>-Math.SQRT1_2</h2>
+                    <p>SQRT1_2 → ${sqrt1_2} </p> 
+                    `;
 
   // Appending the div to the body
   document.body.appendChild(printDiv);
