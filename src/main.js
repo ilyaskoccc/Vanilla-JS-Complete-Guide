@@ -69,6 +69,7 @@ import { exampleArrayPush } from "./array/exampleArrayPush";
 import { exampleArrayUnshift } from "./array/exampleArrayUnshift";
 import { exampleArraySplice } from "./array/exampleArraySplice";
 import { exampleArraySlice } from "./array/exampleArraySlice";
+import { exampleArrayCopyWithin } from "./array/exampleArrayCopyWithin";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -154,3 +155,4 @@ exampleArrayPush();
 exampleArrayUnshift();
 exampleArraySplice();
 exampleArraySlice();
+exampleArrayCopyWithin();
