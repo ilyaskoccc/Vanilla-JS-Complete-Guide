@@ -79,6 +79,7 @@ import { exampleArrayFind } from "./array/exampleArrayFind";
 import { exampleArrayFindIndex } from "./array/exampleArrayFindIndex";
 import { exampleArrayReduce } from "./array/exampleArrayReduce";
 import { exampleArrayReduceRight } from "./array/exampleArrayReduceRight";
+import { exampleArrayReverse } from "./array/exampleArrayReverse";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -174,3 +175,4 @@ exampleArrayFind();
 exampleArrayFindIndex();
 exampleArrayReduce();
 exampleArrayReduceRight();
+exampleArrayReverse();
