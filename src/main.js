@@ -93,6 +93,7 @@ import { exampleMinValue } from "./math/exampleMinValue";
 import { examplePositiveInfinity } from "./math/examplePostiveInfinity";
 import { exampleNegativeInfinity } from "./math/exampleNegativeInfinity";
 import { exampleMathE } from "./math/exampleMathE";
+import { exampleMathLN2 } from "./math/exampleMathLN2";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -204,3 +205,4 @@ exampleMinValue();
 examplePositiveInfinity();
 exampleNegativeInfinity();
 exampleMathE();
+exampleMathLN2();
