@@ -75,6 +75,7 @@ import { exampleArrayConcat } from "./array/exampleArrayConcat";
 import { exampleArrayValueOf } from "./array/exampleArrayValueOf";
 import { exampleArrayIndexOf } from "./array/exampleArrayIndexOf";
 import { exampleArrayLastIndexOf } from "./array/exampleArrayLastIndexOf";
+import { exampleArrayFind } from "./array/exampleArrayFind";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -166,3 +167,4 @@ exampleArrayConcat();
 exampleArrayValueOf();
 exampleArrayIndexOf();
 exampleArrayLastIndexOf();
+exampleArrayFind();
