@@ -59,6 +59,7 @@ import { exampleFunction } from "./function/exampleFunction";
 import { exampleConditionFunction } from "./function/exampleConditionFunction";
 import { exampleArray } from "./array/exampleArray";
 import { exampleIsArray } from "./array/exampleIsArray";
+import { exampleArrayForIn } from "./array/exampleArrayForIn";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -134,3 +135,4 @@ exampleConditionFunction();
 // array
 exampleArray();
 exampleIsArray();
+exampleArrayForIn();
