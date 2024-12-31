@@ -16,11 +16,11 @@ export function exampleArrayForIn() {
 
   // Appending data type results to the div and calling the function
   printDiv.innerHTML = `
-                            <br/>
-                            <h2>-Array For-In</h2>
-                            <p>Array Colors → ${colors}</p>   
-                            <p>For-In → <br/> ${text}</p>   
-                            `;
+                    <br/>
+                    <h2>-Array For-In</h2>
+                    <p>Array Colors → ${colors}</p>   
+                    <p>For-In → <br/> ${text}</p>   
+                    `;
 
   // Appending the div to the body
   document.body.appendChild(printDiv);
