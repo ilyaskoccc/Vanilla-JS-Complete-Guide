@@ -95,6 +95,7 @@ import { exampleNegativeInfinity } from "./math/exampleNegativeInfinity";
 import { exampleMathE } from "./math/exampleMathE";
 import { exampleMathLN2 } from "./math/exampleMathLN2";
 import { exampleMathLN10 } from "./math/exampleMathLN10";
+import { exampleMathLog2E } from "./math/exampleMathLog2E";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -208,3 +209,4 @@ exampleNegativeInfinity();
 exampleMathE();
 exampleMathLN2();
 exampleMathLN10();
+exampleMathLog2E();
