@@ -91,6 +91,7 @@ import { exampleArrayShuffle } from "./array/exampleArrayShuffle";
 import { exampleMaxValue } from "./math/exampleMaxValue";
 import { exampleMinValue } from "./math/exampleMinValue";
 import { examplePositiveInfinity } from "./math/examplePostiveInfinity";
+import { exampleNegativeInfinity } from "./math/exampleNegativeInfinity";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -200,3 +201,4 @@ exampleArrayShuffle();
 exampleMaxValue();
 exampleMinValue();
 examplePositiveInfinity();
+exampleNegativeInfinity();
