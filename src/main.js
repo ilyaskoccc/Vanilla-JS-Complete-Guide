@@ -87,6 +87,7 @@ import { exampleArrayEvery } from "./array/exampleArrayEvery";
 import { exampleArrayFilter } from "./array/exampleArrayFilter";
 import { exampleArrayMap } from "./array/exampleArrayMap";
 import { exampleArrayAvarage } from "./array/exampleArrayAvarage";
+import { exampleArrayShuffle } from "./array/exampleArrayShuffle";
 
 // Welcome Text
 document.querySelector("#app").innerHTML =
@@ -190,3 +191,4 @@ exampleArrayEvery();
 exampleArrayFilter();
 exampleArrayMap();
 exampleArrayAvarage();
+exampleArrayShuffle();
